@@ -20,6 +20,7 @@ def validar_texto_obligatorio(texto, longitud_minima):
 
 def validar_codigo_estudiante(codigo):
     # Requerimiento 2: valida codigo de estudiante (no vacio, longitud minima)
+    # Un codigo valido debe tener minimo 6 caracteres, ej: EST2026
     return validar_texto_obligatorio(codigo, LONGITUD_MINIMA_CODIGO)
 
 
