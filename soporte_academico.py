@@ -41,6 +41,7 @@ def calcular_prioridad(tipo_consulta):
     # Plataforma y pagos son urgentes (Alta), otro es Baja, el resto es Media
     tipo = tipo_consulta.strip().lower()
     prioridad = "Media"  # variable local (Requerimiento 9)
+    # La variable 'prioridad' solo existe dentro de esta funcion, no se puede usar fuera de ella
     if tipo == "plataforma" or tipo == "pagos":
         prioridad = "Alta"
     elif tipo == "otro":
