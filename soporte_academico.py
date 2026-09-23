@@ -12,6 +12,7 @@ def mostrar_menu():
 
 def validar_texto_obligatorio(texto, longitud_minima):
     # Requerimiento 6: funcion CON retorno que valida un texto obligatorio
+    # Se usa para validar nombre, descripcion y codigo con distinta longitud minima
     texto = texto.strip()
     if len(texto) >= longitud_minima:
         return True
