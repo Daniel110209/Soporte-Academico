@@ -50,6 +50,7 @@ def calcular_prioridad(tipo_consulta):
 
 def mostrar_resumen(codigo, nombre, tipo_consulta, descripcion, prioridad):
     # Requerimiento 7: funcion sin retorno que muestra el resumen de la solicitud
+    # Recibe los datos ya validados y solo los imprime en pantalla
     print("--- Resumen de solicitud ---")
     print("Codigo: " + codigo)
     print("Nombre: " + nombre)
