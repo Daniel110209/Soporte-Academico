@@ -106,6 +106,7 @@ def main():
     print(calcular_prioridad("otro"))
 
     # enviando los datos por parametros y usando variables locales dentro de cada funcion
+    # Requerimiento 8: codigo, nombre, tipo_consulta y descripcion se pasan a las funciones de validacion, no se usan variables globales
     print("")
     contador = 0
     while contador < 3:
