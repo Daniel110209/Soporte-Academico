@@ -61,6 +61,7 @@ def mostrar_resumen(codigo, nombre, tipo_consulta, descripcion, prioridad):
 
 
 def main():
+    # Requerimiento 12: cada funcion de este archivo tiene un comentario indicando que requerimiento cumple
     # Requerimiento 10: listas del programa principal para guardar hasta 3 solicitudes
     # El programa vuelve a pedir datos mientras el contador sea menor a 3
     lista_codigos = []
