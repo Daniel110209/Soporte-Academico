@@ -37,6 +37,7 @@ def validar_tipo_consulta(tipo):
 
 def calcular_prioridad(tipo_consulta):
     # Requerimiento 5: funcion con retorno
+    # Plataforma y pagos son urgentes (Alta), otro es Baja, el resto es Media
     tipo = tipo_consulta.strip().lower()
     prioridad = "Media"  # variable local (Requerimiento 9)
     if tipo == "plataforma" or tipo == "pagos":
