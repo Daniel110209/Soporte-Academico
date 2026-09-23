@@ -71,6 +71,7 @@ def main():
     mostrar_menu()
 
     # Requerimiento 11: 5 pruebas con datos fijos, antes de pedir datos por teclado
+    # Se prueban: datos validos, codigo vacio, tipo incorrecto, prioridad alta y prioridad baja
     print("")
     print("PRUEBA 1 (datos validos):")
     codigo = "N00534090"
