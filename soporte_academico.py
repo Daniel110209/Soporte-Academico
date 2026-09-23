@@ -26,6 +26,7 @@ def validar_codigo_estudiante(codigo):
 
 def validar_tipo_consulta(tipo):
     # Requerimiento 3: valida que el tipo de consulta este en la lista permitida
+    # Tipos permitidos: matricula, pagos, constancia, plataforma, otro
     tipo = tipo.strip().lower()
     if tipo == "matricula" or tipo == "pagos" or tipo == "constancia" or tipo == "plataforma" or tipo == "otro":
         return True
