@@ -3,6 +3,7 @@ LONGITUD_MINIMA_CODIGO = 6
 
 def mostrar_menu():
     # Menu principal
+    # Esta funcion no recibe parametros ni devuelve ningun valor
     print(" SOPORTE ACADEMICO ")
     print("1. Registrar nueva solicitud")
     print("2. Salir")
