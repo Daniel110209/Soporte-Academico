@@ -62,6 +62,7 @@ def mostrar_resumen(codigo, nombre, tipo_consulta, descripcion, prioridad):
 
 def main():
     # Requerimiento 10: listas del programa principal para guardar hasta 3 solicitudes
+    # El programa vuelve a pedir datos mientras el contador sea menor a 3
     lista_codigos = []
     lista_nombres = []
     lista_tipos = []
